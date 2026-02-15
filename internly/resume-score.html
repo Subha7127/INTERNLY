@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>resume-score - INTERNLY</title>
+  <meta property="og:title" content="resume-score - INTERNLY" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta property="twitter:card" content="summary_large_image" />
+
+  <style data-tag="reset-style-sheet">
+    html {
+      line-height: 1.15;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+      border-width: 0;
+      border-style: solid;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    p,
+    li,
+    ul,
+    pre,
+    div,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    figure,
+    blockquote,
+    figcaption {
+      margin: 0;
+      padding: 0;
+    }
+
+    button {
+      background-color: transparent;
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+      font-family: inherit;
+      font-size: 100%;
+      line-height: 1.15;
+      margin: 0;
+    }
+
+    button,
+    select {
+      text-transform: none;
+    }
+
+    button,
+    [type="button"],
+    [type="reset"],
+    [type="submit"] {
+      -webkit-appearance: button;
+      color: inherit;
+    }
+
+    button::-moz-focus-inner,
+    [type="button"]::-moz-focus-inner,
+    [type="reset"]::-moz-focus-inner,
+    [type="submit"]::-moz-focus-inner {
+      border-style: none;
+      padding: 0;
+    }
+
+    button:-moz-focus,
+    [type="button"]:-moz-focus,
+    [type="reset"]:-moz-focus,
+    [type="submit"]:-moz-focus {
+      outline: 1px dotted ButtonText;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+
+    pre {
+      white-space: normal;
+    }
+
+    input {
+      padding: 2px 4px;
+    }
+
+    img {
+      display: block;
+    }
+
+    details {
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    [data-thq="accordion"] [data-thq="accordion-content"] {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-in-out;
+      padding: 0;
+    }
+
+    [data-thq="accordion"] details[data-thq="accordion-trigger"][open]+[data-thq="accordion-content"] {
+      max-height: 1000vh;
+    }
+
+    details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {
+      transform: rotate(180deg);
+    }
+
+    html {
+      scroll-behavior: smooth
+    }
+  </style>
+  <style data-tag="default-style-sheet">
+    html {
+      font-family: Inter;
+      font-size: 16px;
+    }
+
+    body {
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      text-transform: none;
+      letter-spacing: normal;
+      line-height: 1.15;
+      color: var(--dl-color-theme-neutral-dark);
+      background: var(--dl-color-theme-neutral-light);
+
+      fill: var(--dl-color-theme-neutral-dark);
+    }
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@200;300;400;500;600;700;800&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet" href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" />
+</head>
+
+<body>
+  <link rel="stylesheet" href="./style.css" />
+  <link href="./resume-score.css" rel="stylesheet" />
+
+
+  <div class="resume-score-container1">
+    <h1 class="resume-score-text1">YOUR AI RESUME ANALYSIS</h1>
+
+    <div class="analysis-wrapper">
+
+      <div class="left-column">
+
+        <div class="resume-score-container2">
+          <span class="resume-score-text2">UPLOAD</span>
+            <div class="resume-score-lottie-node">
+            <img src="./images/file-upload.png" 
+         alt="Upload icon featuring a file document with an upward arrow, surrounded by colorful cloud shapes in magenta, purple, and cyan gradients, representing cloud-based file uploading"
+         style="width:150px; height:150px;">
+
+          </div>
+          <button class="resume-score-button">UPLOAD RESUME</button>
+        </div>
+
+        <div class="resume-score-container3">
+          <span class="resume-score-text2">YOUR PROGRESS</span>
+
+          <div class="progress-track">
+            <div class="progress-fill"></div>
+          </div>
+          <span class="progress-percentage">85% Complete</span>
+        </div>
+      </div>
+
+<div class="resume-score-container4">
+  <span class="resume-score-thq-text-elm">YOUR SKILLS MATCH</span>
+  <div style="width: 100%; padding: 20px;">
+    <canvas id="skillsChart"></canvas>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      </div>
+
+    </div>
+  </div>
+  <script>
+  const ctx = document.getElementById('skillsChart').getContext('2d');
+  new Chart(ctx, {
+    type: 'radar', // Radar charts look very high-tech/AI
+    data: {
+      labels: ['Coding', 'Design', 'Logic', 'Strategy', 'Teamwork'],
+      datasets: [{
+        label: 'Skill Match %',
+        data: [90, 75, 95, 80, 70], // Your AI data points
+        backgroundColor: 'rgba(34, 211, 238, 0.2)',
+        borderColor: '#22d3ee',
+        borderWidth: 2,
+        pointBackgroundColor: '#6366f1'
+      }]
+    },
+    options: {
+      scales: {
+        r: {
+          angleLines: { color: 'rgba(255, 255, 255, 0.1)' },
+          grid: { color: 'rgba(255, 255, 255, 0.1)' },
+          pointLabels: { color: '#ffffff', font: { size: 14 } },
+          ticks: { display: false }
+        }
+      },
+      plugins: { legend: { display: false } }
+    }
+  });
+</script>
+</body>
+
+</html>
