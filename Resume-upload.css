@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: radial-gradient(circle at top,#0f172a,#020617);
+  color: white;
+}
+
+.navbar {
+  padding: 25px 50px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.navbar a {
+  color: #F8FAFC;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #22D3EE;
+}
+
+.upload-container {
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-title {
+  font-size: 44px;
+  font-weight: 800;
+  margin-bottom: 60px;
+  text-shadow: 0 0 25px rgba(34,211,238,0.6);
+}
+
+/* Glass Card */
+.glass-card {
+  width: 520px;
+  padding: 60px;
+  border-radius: 28px;
+  backdrop-filter: blur(16px);
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: 0.4s;
+  opacity: 0;
+  transform: translateY(30px);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.glass-card:hover {
+  transform: translateY(-10px);
+  border-color: rgba(34,211,238,0.6);
+  box-shadow:
+    0 30px 60px rgba(0,0,0,0.6),
+    0 0 40px rgba(34,211,238,0.3);
+}
+
+.fade-in.active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 0.8s ease;
+}
+
+.drop-zone {
+  border: 2px dashed rgba(255,255,255,0.3);
+  padding: 50px 20px;
+  border-radius: 22px;
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.drop-zone:hover {
+  border-color: #22D3EE;
+  background: rgba(34,211,238,0.08);
+}
+
+.primary-btn {
+  background: linear-gradient(135deg,#f0abfc,#22d3ee);
+  border: none;
+  padding: 16px 32px;
+  border-radius: 30px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.primary-btn:hover {
+  box-shadow: 0 0 30px rgba(34,211,238,0.6);
+  transform: translateY(-3px);
+}
+
+.secondary-btn {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.secondary-btn:hover {
+  border-color: #22D3EE;
+}
+
+.full-btn {
+  width: 100%;
+}
+
+.progress-track {
+  width: 100%;
+  height: 12px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(90deg,#6366f1,#22d3ee);
+}
+
+.info-text {
+  font-size: 14px;
+  color: #22D3EE;
+}
+
+.hidden {
+  display: none;
+}
